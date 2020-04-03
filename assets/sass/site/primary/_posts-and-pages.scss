@@ -1,0 +1,349 @@
+.template-index {
+	>.row-2 {
+		>.wrapper.cap {
+			padding: 20px 0;
+			text-align: center;
+			@media screen and (min-width: $tabwidth){
+				padding: 40px 0;
+			}
+			.tagline {
+				font-weight: 700;
+				font-size: 25px;
+				@media screen and (min-width: $tabwidth){
+					font-size: 35px;
+				}
+				&:after {
+					content: "";
+					display: block;
+					border-top: 3px solid $color__a-red;
+					width: 100px;
+					margin: 20px auto;
+				}
+			}
+			.subline {
+				font-weight: 700;
+				font-size: 18px;
+				text-transform: uppercase;
+				@media screen and (min-width: $tabwidth){
+					font-size: 20px;
+				}
+				p {
+					margin: 0;
+				}
+				a {
+					color: inherit;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	>.row-3 {
+		background-color: $color__a-light-grey;
+		>.wrapper.cap {
+			padding: 20px 0;
+			@media screen and (min-width: $tabwidth){
+				padding: 40px 0;
+			}
+			@media screen and (min-width: $deskwidth){
+				padding: 80px 0 120px 0;
+			}
+			>.col {
+				>header {
+					margin: 0 0 20px 0;
+					h2 {
+						margin: 0;
+						color: $color__a-green;
+						font-weight: 500;
+						text-transform: uppercase;
+						font-size: 20px;
+						@media screen and (min-width: $tabwidth){
+							font-size: 26px;
+						}
+					}
+				}
+			}
+			>.col-1 {
+				@media screen and (min-width: $deskwidth){
+					width: 33%;
+					float: left;
+				}
+				.news {
+					.post {
+						margin: 15px 0 0 0;
+						background-color: white;
+						padding: 10px 20px 20px 20px;
+						@media screen and (min-width: $deskwidth){
+							padding: 20px 30px 30px 30px;
+						}
+						.date {
+
+						}
+						header {
+							margin: 20px 0 0 0;
+							h3 {
+								margin: 0;
+							}
+						}
+						.copy {
+							margin: 10px 0 0 0;
+						}
+						.read-more {
+							margin: 20px 0 0 0;
+							a.button {
+
+							}
+						}
+					}
+				}
+			}
+			>.col-2 {
+				margin: 20px 0 0 0;
+				@media screen and (min-width: $deskwidth){
+					margin: 0 5% 0 3%;
+					width: 33%;
+					float: left;
+				}
+				>.wrapper {
+					background-color: white;
+					padding: 40px 30px 10px 30px;
+					.events {
+						* {
+							font-family: $font__main;
+							font-weight: 500;
+						}
+						.event {
+							margin: 30px 0 0 0;
+							&:first-child {
+								margin: 0;
+							}
+							.date {
+								background-color: $color__a-medium-grey;
+								padding: 10px;
+								color: white;
+								float: left;
+								font-size: 14px;
+							}
+							header {
+								&:before {
+									border-top: 1px solid $color__a-medium-grey;
+									clear: both;
+									content: '';
+									display: block;
+								}
+								h3 {
+									padding: 10px 20px;
+									margin: 0;
+								}
+							}
+							.time {
+								padding: 10px 20px;
+
+							}
+						}
+					}
+					.view-more {
+						margin: 30px 0 0 0;
+						text-align: center;
+						a {
+							margin: 0;
+							color: inherit;
+							text-transform: uppercase;
+							font-size: 16px;
+							text-decoration: none;
+							@media screen and (min-width: $tabwidth){
+								font-size: 18px;
+							}
+
+						}
+					}
+				}
+			}
+			>.col-3 {
+				margin: 20px 0 0 0;
+				@media screen and (min-width: $deskwidth){
+					width: 25%;
+					margin: 0;
+					float: left;
+				}
+			}
+		}
+	}
+	>.row-4 {
+		>.wrapper.cap {
+			padding: 20px 0;
+			text-align: center;
+			@media screen and (min-width: $tabwidth){
+				padding: 30px 0;
+			}
+			>a {
+				width: calc(50% - 15px);
+				display: inline-block;
+				vertical-align: middle;
+				margin: 10px 5px;
+				@media screen and (min-width: $tabwidth){
+					max-width: 200px;
+					width: calc(25% - 15px);
+				}
+				img {
+					width: 100%;
+					display: block;
+				}
+			}
+			>img {
+				width: calc(50% - 15px);
+				display: inline-block;
+				vertical-align: middle;
+				margin: 10px 5px;
+				@media screen and (min-width: $tabwidth){
+					max-width: 200px;
+					width: calc(25% - 15px);
+				}
+			}
+		}
+	}
+}
+
+.template-page {
+	>.wrapper.cap {
+		padding: 20px 0;
+		@media screen and (min-width: $tabwidth){
+			padding: 40px 0;
+		}
+		@media screen and (min-width: $deskwidth){
+			padding: 80px 0 120px 0;
+		}
+		>.col-1 {
+			@media screen and (min-width: $deskwidth){
+				float: left;
+				width: 75%;
+				padding: 0 40px 0 0;
+			}
+			>header {
+				h1 {
+					font-weight: 700;
+					font-size: 25px;
+					margin: 0;
+					@media screen and (min-width: $deskwidth){
+						font-size: 35px;
+					}
+				}
+			}
+			.copy {
+				margin: 20px 0 0 0;
+				@media screen and (min-width: $deskwidth){
+					margin: 40px 0 0 0;
+				}
+			}
+		}
+		>.wrapper.quicklinks {
+			margin: 40px 0 0 0;
+			@media screen and (min-width: $deskwidth){
+				margin: 0;
+				float: left;
+				width: 25%;
+			}
+		}
+	}
+}
+.template-single {
+	>.wrapper.cap {
+		padding: 20px 0;
+		@media screen and (min-width: $tabwidth){
+			padding: 40px 0;
+		}
+		@media screen and (min-width: $deskwidth){
+			padding: 80px 0 120px 0;
+		}
+		>.col-1 {
+			@media screen and (min-width: $deskwidth){
+				float: left;
+				width: 75%;
+				padding: 0 40px 0 0;
+			}
+			>header {
+				h1 {
+					font-weight: 700;
+					font-size: 25px;
+					margin: 0;
+					@media screen and (min-width: $deskwidth){
+						font-size: 35px;
+					}
+				}
+			}
+			.copy {
+				margin: 20px 0 0 0;
+				@media screen and (min-width: $deskwidth){
+					margin: 40px 0 0 0;
+				}
+			}
+		}
+		>.wrapper.archives-recent {
+			margin: 40px 0 0 0;
+			@media screen and (min-width: $deskwidth){
+				margin: 0;
+				float: left;
+				width: 25%;
+			}
+		}
+	}
+}
+.template-list {
+	>.wrapper.cap {
+		padding: 20px 0;
+		@media screen and (min-width: $tabwidth){
+			padding: 40px 0;
+		}
+		@media screen and (min-width: $deskwidth){
+			padding: 80px 0 120px 0;
+		}
+		>.col-1 {
+			@media screen and (min-width: $deskwidth){
+				float: left;
+				width: 75%;
+				padding: 0 40px 0 0;
+			}
+			>header {
+				h1 {
+					font-weight: 700;
+					font-size: 25px;
+					margin: 0;
+					@media screen and (min-width: $deskwidth){
+						font-size: 35px;
+					}
+				}
+			}
+			.post-list {
+				margin: 20px 0 0 0;
+				.post {
+					padding: 20px 0;
+					border-bottom: 1px solid $color__a-medium-grey;
+					&:first-child {
+						margin: 0;
+					}
+					h2 {
+						font-weight: 700;
+						font-size: 20px;
+						margin: 0;
+						@media screen and (min-width: $deskwidth){
+							font-size: 30px;
+						}
+					}
+					.copy {
+						margin: 20px 0 0 0;
+					}
+					a.button {
+						margin: 20px 0 0 0;
+					}
+				}
+			}
+		}
+		>.wrapper.archives-recent {
+			margin: 40px 0 0 0;
+			@media screen and (min-width: $deskwidth){
+				margin: 0;
+				float: left;
+				width: 25%;
+			}
+		}
+	}
+}
