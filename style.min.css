@@ -287,13 +287,13 @@ html[xmlns] .flexslider .slides{display:block}
 .copy>ul li a:hover,.copy>ol li a:hover{color:black}
 .copy>ol li{list-style-type:decimal}
 .social{text-align:center}
-.social a{display:inline-block;margin:0 5px;border-radius:50%;background-color:#98121b;color:white;text-align:center;font-size:14px;padding:2px 0;width:25px;height:25px}
-#primary .button{background-color:#98121b;color:white;text-transform:uppercase;display:inline-block;padding:10px 20px;border:1px solid black;text-decoration:none;text-align:center}
+.social a{display:inline-block;margin:0 5px;border-radius:50%;background-color:#0054a6;color:white;text-align:center;font-size:14px;padding:2px 0;width:25px;height:25px}
+#primary .button{background-color:#0054a6;color:white;text-transform:uppercase;display:inline-block;padding:10px 20px;border:1px solid black;text-decoration:none;text-align:center}
 #primary .button:hover{color:white}
 .flexslider.row-1{width:100%;display:block}
 .flexslider.row-1>.slides li img{width:100%;display:block}
 #masthead>.row-1>.wrapper.cap{padding:20px 0 40px 0}
-#masthead>.row-2{background-color:#70020c}
+#masthead>.row-2{background-color:#0054a6}
 #masthead>.row-2>.wrapper.cap{padding:20px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-ms-flex-line-pack:center;align-content:center;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}
 #masthead>.row-2>.wrapper.cap button.menu-toggle{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2;-webkit-box-shadow:none;box-shadow:none;border:2px solid black;text-shadow:none;text-transform:uppercase;color:black;padding:10px 20px;text-align:center;display:inline-block;margin:0 0 20px 0}
 #masthead>.row-2>.wrapper.cap button.menu-toggle.active{color:white;border:2px solid white;background-color:black}
@@ -321,17 +321,17 @@ html[xmlns] .flexslider .slides{display:block}
 .wrapper.quicklinks .quick-links ul{margin:0;padding:0}
 .wrapper.quicklinks .quick-links ul li{list-style-type:none;margin:15px 0 0 0;-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);box-shadow:1px 1px 2px rgba(0,0,0,0.2);-webkit-transition:-webkit-box-shadow .2s;transition:-webkit-box-shadow .2s;transition:box-shadow .2s;transition:box-shadow .2s,-webkit-box-shadow .2s}
 .wrapper.quicklinks .quick-links ul li:hover{-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.5);box-shadow:1px 1px 2px rgba(0,0,0,0.5)}
-.wrapper.quicklinks .quick-links ul li a{background-color:white;display:block;border-left:8px solid #98121b;padding:20px;text-decoration:none;color:inherit}
+.wrapper.quicklinks .quick-links ul li a{background-color:white;display:block;border-left:8px solid #0054a6;padding:20px;text-decoration:none;color:inherit}
 .wrapper.quicklinks .email-signup{margin:15px 0 0 0;text-align:center}
 .wrapper.archives-recent>.archives{margin:40px 0 0 0}
 .wrapper.archives-recent>.recent>header,.wrapper.archives-recent>.archives>header{margin:0 0 20px 0}
 .wrapper.archives-recent>.recent>header h2,.wrapper.archives-recent>.archives>header h2{margin:0;color:#054742;font-weight:500;text-transform:uppercase;font-size:20px}
 .wrapper.archives-recent>.recent ul.list,.wrapper.archives-recent>.archives ul.list{margin:20px 0 0 0;padding:0}
 .wrapper.archives-recent>.recent ul.list li,.wrapper.archives-recent>.archives ul.list li{list-style-type:none}
-.wrapper.archives-recent>.recent ul.list li a,.wrapper.archives-recent>.archives ul.list li a{text-decoration:none;color:#70020c}
+.wrapper.archives-recent>.recent ul.list li a,.wrapper.archives-recent>.archives ul.list li a{text-decoration:none;color:#0054a6}
 .template-index>.row-2>.wrapper.cap{padding:20px 0;text-align:center}
 .template-index>.row-2>.wrapper.cap .tagline{font-weight:700;font-size:25px}
-.template-index>.row-2>.wrapper.cap .tagline:after{content:"";display:block;border-top:3px solid #70020c;width:100px;margin:20px auto}
+.template-index>.row-2>.wrapper.cap .tagline:after{content:"";display:block;border-top:3px solid #0054a6;width:100px;margin:20px auto}
 .template-index>.row-2>.wrapper.cap .subline{font-weight:700;font-size:18px;text-transform:uppercase}
 .template-index>.row-2>.wrapper.cap .subline p{margin:0}
 .template-index>.row-2>.wrapper.cap .subline a{color:inherit;text-decoration:none}

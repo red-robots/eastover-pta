@@ -99,7 +99,7 @@
 		display: inline-block;
 		margin: 0 5px;
 		border-radius: 50%;
-		background-color: $color__a-bright-red;
+		background-color: $color__a-red;
 		color: white;
 		text-align: center;
 		font-size: 14px;
@@ -118,7 +118,7 @@
 	}
 }
 #primary .button {
-	background-color: $color__a-bright-red;
+	background-color: $color__a-red;
 	color: white;
 	text-transform: uppercase;
 	display: inline-block;
@@ -363,7 +363,7 @@
 				a {
 					background-color: white;
 					display: block;
-					border-left: 8px solid $color__a-bright-red;
+					border-left: 8px solid $color__a-red;
 					padding: 20px;
 					text-decoration: none;
 					color: inherit;
