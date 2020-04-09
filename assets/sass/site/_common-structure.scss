@@ -47,11 +47,12 @@
 	}
 	a {
 	  text-decoration: none;
-	  color: $color__text-main;
+	  color: $color__a-red;
 	  position: relative;
+	  border-bottom: 2px solid $color__a-red;
+	  transition: all ease .2s;
 	  &:hover {
-		color: $color__text-main;
-		text-decoration: underline;
+		background-color: #fcfdac;
 	  }
 	}
 	h1, h2, h3 {

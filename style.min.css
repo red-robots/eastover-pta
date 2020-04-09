@@ -172,7 +172,7 @@ input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input
 select{border:1px solid #ccc}
 input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"]{padding:3px}
 textarea{padding-left:3px;width:100%}
-a{color:#0999f3}
+a{color:#0054a6}
 a:hover,a:focus,a:active{color:midnightblue}
 a:focus{outline:thin dotted}
 a:hover,a:active{outline:0}
@@ -275,8 +275,8 @@ html[xmlns] .flexslider .slides{display:block}
 .copy>*:last-child{margin-bottom:0;padding-bottom:0}
 .copy p{margin:20px 0}
 .copy strong,.copy b,.copy em{font-weight:800}
-.copy a{text-decoration:none;color:black;position:relative}
-.copy a:hover{color:black;text-decoration:underline}
+.copy a{text-decoration:none;color:#0054a6;position:relative;border-bottom:2px solid #0054a6;-webkit-transition:all ease .2s;transition:all ease .2s}
+.copy a:hover{background-color:#fcfdac}
 .copy h1,.copy h2,.copy h3{margin:0 0 10px 0;text-transform:uppercase}
 .copy h1{font-size:30px;color:black}
 .copy h2{font-size:23px;color:#054742}

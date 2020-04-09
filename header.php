@@ -27,10 +27,17 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="row-1">
 			<div class="wrapper cap clear-bottom">
-				<?php $facebook_link = get_field("facebook_link","option");
+				<?php 
+				$facebook_link = get_field("facebook_link","option");
+				$instagram_link = get_field("instagram_link","option");
 				if($facebook_link):?>
 					<div class="social">
 						<a href="<?php echo $facebook_link;?>" target="_blank"><i class="fa fa-facebook"></i></a>
+					</div><!--.social-->
+				<?php endif;
+				if($instagram_link):?>
+					<div class="social">
+						<a href="<?php echo $instagram_link;?>" target="_blank"><i class="fa fa-instagram"></i></a>
 					</div><!--.social-->
 				<?php endif;?>
 			</div><!--.wrapper-->
